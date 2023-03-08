@@ -1,0 +1,66 @@
+{
+  "allProducts": [
+    {
+      "name": "handbag",
+      "productsnumber": 10150002,
+      "price": 3000,
+      "description": "This shoulder strap bag has a magnetic closure",
+      "image": "https://tamiinbetween.com/wp-content/uploads/2021/01/IMG_5058-768x1024.jpg"
+    },
+    {
+      "name": "shoulderbag",
+      "productsnumber": 10154480,
+      "price": 2500,
+      "description": "This shoulder strap bag has a magnetic closure",
+      "image": "https://www.charleskeith.com/dw/image/v2/BCWJ_PRD/on/demandware.static/-/Sites-ck-products/default/dw69bb5b62/images/hi-res/2022-L6-CK2-20270913-01-1.jpg?sw=1152&sh=1536"
+    },
+    {
+      "name": "sport bags",
+      "productsnumber": 6755004807,
+      "price": 1500,
+      "description": "gym club Sports bag with blue and black color"
+    },
+    {
+      "name": "family bags",
+      "productsnumber": 78004807,
+      "price": 1500,
+      "description": "big suitable bag for family with pink color"
+    },
+    {
+      "name": "school bags",
+      "productsnumber": 43204807,
+      "price": 1000,
+      "description": "medium suitable bag for classes and school with blue color"
+    },
+    {
+      "name": "cross bags",
+      "productsnumber": 9204807,
+      "price": 1600,
+      "description": "smallleather bag with dark blue color"
+    },
+    {
+      "name": "business bags",
+      "productsnumber": 34204807,
+      "price": 3000,
+      "description": " leather bag with darkbrown color and black belt"
+    },
+    {
+      "name": "travel bags",
+      "productsnumber": 34204807,
+      "price": 4000,
+      "description": "big travel leather bag withred hjul"
+    },
+    {
+      "name": "evenings bags",
+      "productsnumber": 34204807,
+      "price": 4000,
+      "description": "blackleather bag wit gold belt"
+    },
+    {
+      "name": "laptop bags",
+      "productsnumber": 134204807,
+      "price": 1000,
+      "description": " good quielty leather bag wit gold belt"
+    }
+  ]
+}
