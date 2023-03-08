@@ -1,17 +1,29 @@
-import SearchProduct from "./SerachProduct";
+// import SearchProduct from "./SerachProduct"; Misspellled the name
+import SearchProduct from "./SearchProduct"; 
+
 
 function SearchResult(props) {
+  console.log("SearchResult props", props);
+  
   return (
-    <div style={{ display: "flex", flexDirection: "row" }}>
+    <div>
+
       <h2> Search Result</h2>
-      {props.products.slice(0, 100).map((product) => (
+      <div>
+      {props.products.length===0 && <h3>No products matching the search...</h3>}
+      </div>
+    <div style={{ display: "flex", flexDirection: "row" }}>
+
+      {props.products.map((product) => (
         <SearchProduct
-          key={product.id}
+          // key={product.id}
           product={product}
           onAddToCart={() => props.onAddToCart(product.id)}
         />
       ))}
     </div>
+    </div>
+
   );
 }
 

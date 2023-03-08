@@ -1,15 +1,15 @@
+import "./MagicShop.css";
 import React, { useState } from "react";
 import SearchResult from "./SearchResult";
-import "./MagicShop.css";
 import data from "./data.json";
 import ShoppingCart from "./ShoppingCart";
 
 function MagicShop() {
-  const allProducts = data.allProducts; // svae the j-son data in constant
+  const allProducts = data.allProducts; // save the j-son data in constant
 
   const [searchText, setSearchText] = useState(""); // create state for the input search word from the user in the search bar
 
-  const [filteredProducts, setFilteredProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([...allProducts]);
 
   const [shoppingCartProducts, setShoppingCartProducts] = useState(
     allProducts.map((p) => {
